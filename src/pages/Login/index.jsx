@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import loginImg from '../../assets/login.svg';
 import { IoLogIn } from 'react-icons/io5';
 
 export const Login = () => {
@@ -10,12 +9,6 @@ export const Login = () => {
 
     return (
         <div className="container">
-
-            <div className="container-bg">
-                <h3>Faça login<br/> E entre para o nosso time</h3>
-                <img className="img" src={loginImg} alt="Imagem de login" />
-            </div>
-
             <div className="container-login">
                 <div className="wrap-login">
                     <form className="login-form">

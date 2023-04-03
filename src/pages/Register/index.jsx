@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import register from '../../assets/register.svg';
 import { IoRocket } from 'react-icons/io5';
 
 export const Register = () => {
@@ -11,12 +10,6 @@ export const Register = () => {
 
     return (
         <div className="container">
-
-            <div className="container-bg">
-                <h3>Cadastre-se<br/> e entre para o nosso time</h3>
-                <img className="img" src={register} alt="Imagem de login" />
-            </div>
-
             <div className="container-login">
                 <div className="wrap-login">
                     <form className="login-form">

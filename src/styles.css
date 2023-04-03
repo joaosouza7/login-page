@@ -12,27 +12,8 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: #111;
-}
-
-.container-bg {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-
-.container-bg h3 {
-    color: azure;
-    font-size: 2rem;
-}
-
-.container-bg .img {
-    margin-top: 2.3rem;
-    padding: 1rem;
-    width: 450px;
+    background-color: #111;
 }
 
 .container-login {
